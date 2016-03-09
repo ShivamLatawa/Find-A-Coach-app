@@ -1,0 +1,97 @@
+<header>
+  <h2>Find A Coach</h2>
+
+  <div id="searchBar">
+    <input type="text" name="name" value="" placeholder="Search keywords">
+  </div>
+</header>
+
+<section>
+  <ul class="trainingProgram">
+    <li class="training">Physical Training</li>
+    <li class="training" ng-click="showList($event)">Yoga</li>
+    <li class="training">Meditation</li>
+    <li class="training">Dietician</li>
+    <li class="training">Physical Therapist</li>
+  </ul>
+
+  <div class="filters"  style="display:none">
+    <div id="chooseFilter">Choose Filter</div>
+
+    <ul class="filterSelection">
+      <li class="filter">Experience</li>
+      <li class="filter">Fees</li>
+      <li class="filter">Calendar</li>
+      <li class="filter">Male/Female</li>
+      <li class="filter">Rating</li>
+    </ul>
+  </div>
+
+
+  <div id="yogaList" style="display:none">
+    <h4>Yoga -- {{2}}</h4>
+
+    <div id="trainers">
+      <div class="wrapper">
+        <img src="" alt="">
+        <div id="floatRight">
+          <div id="name">Name: Shivam</div>
+          <div id="gender">Gender: Male</div>
+          <div id="rating">Rating: 5 star</div>
+          Experience: <div id="experience">2 years</div>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <div class="wrapper">
+        <img src="" alt="">
+        <div id="floatRight">
+          <div id="name">Name: Latawa</div>
+          <div id="gender">Gender: Male</div>
+          <div id="rating">Rating: 5 star</div>
+          Experience: <div id="experience">3 years</div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <img src="" alt="">
+        <div id="floatRight">
+          <div id="name">Name: Shivam</div>
+          <div id="gender">Gender: Male</div>
+          <div id="rating">Rating: 5 star</div>
+          Experience: <div id="experience">4 years</div>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <div class="wrapper">
+        <img src="" alt="">
+        <div id="floatRight">
+          <div id="name">Name: Latawa</div>
+          <div id="gender">Gender: Male</div>
+          <div id="rating">Rating: 5 star</div>
+          Experience: <div id="experience">5 years</div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <img src="" alt="">
+        <div id="floatRight">
+          <div id="name">Name: Shivam</div>
+          <div id="gender">Gender: Male</div>
+          <div id="rating">Rating: 5 star</div>
+          Experience: <div id="experience">6 years</div>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <div class="wrapper">
+        <img src="" alt="">
+        <div id="floatRight">
+          <div id="name">Name: Latawa</div>
+          <div id="gender">Gender: Male</div>
+          <div id="rating">Rating: 5 star</div>
+          Experience: <div id="experience">7 years</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

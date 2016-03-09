@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto !important;
+  max-width: 1000px;
+}
+.active {
+  background-color: #1d9ee7;
+  border-radius: 5px;
+}
+header {
+  margin-bottom: 10px;
+}
+header h2 {
+  font-family: Arial;
+  text-align: center;
+  margin-right: 50px;
+}
+header input {
+  height: 20px;
+  width: 160px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #1d9ee7;
+}
+section {
+  margin-left: 25px;
+}
+section ul {
+  display: block;
+}
+section ul li {
+  margin-right: 25px;
+  height: 70px;
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+  width: 15%;
+  padding: 10px;
+  border: 1px solid #1d9ee7;
+  text-align: center;
+  cursor: pointer;
+}
+section #chooseFilter {
+  display: inline-block;
+  margin: 25px 25px 25px 0;
+  padding: 5px;
+  background-color: #1d9ee7;
+  border-radius: 5px;
+}
