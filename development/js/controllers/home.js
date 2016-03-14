@@ -1,7 +1,7 @@
 app.controller('HomeController',function($scope){
   $scope.showList = function(e){
     var $el = $(e.target),
-        text = $el.html().toLowerCase(),
+        text = $el.text().toLowerCase(),
         id = '#' + text + 'List';
 
     if($el.hasClass('active')){

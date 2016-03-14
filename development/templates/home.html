@@ -8,90 +8,73 @@
 
 <section>
   <ul class="trainingProgram">
-    <li class="training">Physical Training</li>
-    <li class="training" ng-click="showList($event)">Yoga</li>
-    <li class="training">Meditation</li>
-    <li class="training">Dietician</li>
-    <li class="training">Physical Therapist</li>
+    <li class="training waves-effect waves-light btn-large ">Training</li>
+    <li class="training waves-effect waves-light btn-large" ng-click="showList($event)">Yoga</li>
+    <li class="training waves-effect waves-light btn-large">Meditation</li>
+    <li class="training waves-effect waves-light btn-large">Dietician</li>
+    <li class="training waves-effect waves-light btn-large">Therapist</li>
   </ul>
 
   <div class="filters"  style="display:none">
-    <div id="chooseFilter">Choose Filter</div>
+    <div class="chip" id="chooseFilter">Choose Filter </div>
 
     <ul class="filterSelection">
-      <li class="filter">Experience</li>
-      <li class="filter">Fees</li>
-      <li class="filter">Calendar</li>
-      <li class="filter">Male/Female</li>
-      <li class="filter">Rating</li>
+      <li class="filter waves-effect waves-light btn-large ">Experience</li>
+      <li class="filter waves-effect waves-light btn-large ">Fees</li>
+      <li class="filter waves-effect waves-light btn-large ">Calendar</li>
+      <li class="filter waves-effect waves-light btn-large ">Male/Female</li>
+      <li class="filter waves-effect waves-light btn-large" ng-click="showPopUp()">Rating</li>
     </ul>
   </div>
 
 
-  <div id="yogaList" style="display:none">
-    <h4>Yoga -- {{2}}</h4>
+  <div id="ratingList" style="display:none">
+    <h4>Ratings -- {{4}}</h4>
 
     <div id="trainers">
-      <div class="wrapper">
-        <img src="" alt="">
-        <div id="floatRight">
-          <div id="name">Name: Shivam</div>
-          <div id="gender">Gender: Male</div>
-          <div id="rating">Rating: 5 star</div>
-          Experience: <div id="experience">2 years</div>
+      <div class="row">
+        <div class="col s12 m5">
+          <div class="card-panel teal">
+            <div id="name" class="white-text">Name: Shivam</div>
+            <div id="gender" class="white-text">Gender: Male</div>
+            <div id="rating" class="white-text">Rating: 5 star</div>
+            <div id="experience" class="white-text">Experience: 2 years</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col s12 m5">
+          <div class="card-panel teal">
+            <div id="name" class="white-text">Name: Archit</div>
+            <div id="gender" class="white-text">Gender: Male</div>
+            <div id="rating" class="white-text">Rating: 4 star</div>
+            <div id="experience" class="white-text">Experience: 2 years</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col s12 m5">
+          <div class="card-panel teal">
+            <div id="name" class="white-text">Name: Ankita</div>
+            <div id="gender" class="white-text">Gender: Female</div>
+            <div id="rating" class="white-text">Rating: 3 star</div>
+            <div id="experience" class="white-text">Experience: 5 years</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col s12 m5">
+          <div class="card-panel teal">
+            <div id="name" class="white-text">Name: Prikz</div>
+            <div id="gender" class="white-text">Gender: Female</div>
+            <div id="rating" class="white-text">Rating: 2.5 star</div>
+            <div id="experience" class="white-text">Experience: 1.5 years</div>
+          </div>
         </div>
       </div>
       <br>
-      <hr>
-      <div class="wrapper">
-        <img src="" alt="">
-        <div id="floatRight">
-          <div id="name">Name: Latawa</div>
-          <div id="gender">Gender: Male</div>
-          <div id="rating">Rating: 5 star</div>
-          Experience: <div id="experience">3 years</div>
-        </div>
-      </div>
-      <div class="wrapper">
-        <img src="" alt="">
-        <div id="floatRight">
-          <div id="name">Name: Shivam</div>
-          <div id="gender">Gender: Male</div>
-          <div id="rating">Rating: 5 star</div>
-          Experience: <div id="experience">4 years</div>
-        </div>
-      </div>
-      <br>
-      <hr>
-      <div class="wrapper">
-        <img src="" alt="">
-        <div id="floatRight">
-          <div id="name">Name: Latawa</div>
-          <div id="gender">Gender: Male</div>
-          <div id="rating">Rating: 5 star</div>
-          Experience: <div id="experience">5 years</div>
-        </div>
-      </div>
-      <div class="wrapper">
-        <img src="" alt="">
-        <div id="floatRight">
-          <div id="name">Name: Shivam</div>
-          <div id="gender">Gender: Male</div>
-          <div id="rating">Rating: 5 star</div>
-          Experience: <div id="experience">6 years</div>
-        </div>
-      </div>
-      <br>
-      <hr>
-      <div class="wrapper">
-        <img src="" alt="">
-        <div id="floatRight">
-          <div id="name">Name: Latawa</div>
-          <div id="gender">Gender: Male</div>
-          <div id="rating">Rating: 5 star</div>
-          Experience: <div id="experience">7 years</div>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
